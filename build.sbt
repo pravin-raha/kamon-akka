@@ -12,5 +12,7 @@ libraryDependencies ++= Seq(
   "io.kamon" %% "kamon-core" % "0.6.7",
   "io.kamon" %% "kamon-akka-2.5" % "0.6.7",
   "io.kamon" %% "kamon-log-reporter" % "0.6.8",
+  "io.kamon" %% "kamon-statsd" % "0.6.7",
+  "io.kamon" %% "kamon-system-metrics" % "0.6.7",
   "ch.qos.logback" % "logback-classic" % "1.2.3"
 )

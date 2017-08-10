@@ -9,7 +9,7 @@ import kamon.Kamon
 object AutomaticTraceContextPropagationWithFutures extends App {
   Kamon.start()
 
-  val system = ActorSystem()
+  val system = ActorSystem("test")
 
   val pinger = system.actorOf(Props(new Actor {
     def receive: Actor.Receive = {
